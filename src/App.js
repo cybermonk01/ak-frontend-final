@@ -60,7 +60,7 @@ const App = () => {
           component={HomeScreen}
           exact
         />
-        <Route path="/" component={HomeScreen} exact />
+        <Route path="/home" component={HomeScreen} exact />
       </main>
       <Footer />
     </Router>

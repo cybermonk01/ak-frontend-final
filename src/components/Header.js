@@ -26,7 +26,7 @@ const Header = () => {
         collapseOnSelect
       >
         <Container>
-          <LinkContainer to="/">
+          <LinkContainer to="/home">
             <Navbar.Brand>
               <img
                 src="https://i.ibb.co/2g1LBpB/AK-PNG.png"
