@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "proxy": "https://ak-api.vercel.app/",
-  "homepage": ".",
+  "homepage": "https://ak-frontend-final.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
