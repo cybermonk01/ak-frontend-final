@@ -8,10 +8,3 @@ export const BannerData = [
   "https://images.apollo247.in/images/ui_revamp_searchBanner1.svg",
   "https://images.apollo247.in/images/ui_revamp_searchBanner2.svg",
 ];
-
-{
-  /* "https://i.ibb.co/hdWyycp/CANADIAN-BANNER.jpg",
-    "https://i.ibb.co/hdWyycp/CANADIAN-BANNER.jpg",
-    'https://i.ibb.co/BqHg5kz/CANADIAN-PHARMACY-3copy.jpg',
-    // 'https://i.ibb.co/pdWQ7nD/CANADIAN-BANNER2-copy.jpg', */
-}

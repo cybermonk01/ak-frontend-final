@@ -1,7 +1,6 @@
 import React from "react";
-import { Box, makeStyles, Typography } from "@material-ui/core";
-import { NavData } from "../constants/NavData.js";
-import { Link } from "react-router-dom";
+import { makeStyles } from "@material-ui/core";
+
 import "./NavbarCategories.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -9,8 +8,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     margin: "12px 30px 0 30px",
     justifyContent: "space-between",
-    // backgroundColor: "rgb(191,139,156)",
-    // background: "linear-gradient(to bottom right, #ccffff 20%, #3399ff 100%)",
+
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
       alignItems: "center",
@@ -39,8 +37,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const NavbarCategories = () => {
-  const classes = useStyles();
-
   return (
     // <Box className={classes.component}>
     <div className="superContainer">
@@ -82,13 +78,3 @@ const NavbarCategories = () => {
 };
 
 export default NavbarCategories;
-
-{
-  /* {NavData.map((data, index) => (
-  <Link to="/product" key={index} className={classes.container}>
-    <img src={data.url} className={classes.image} alt="" />
-    <Typography className={classes.text}>{data.text}</Typography>
-  </Link>
-))} */
-}
-// </Box>

@@ -2,9 +2,8 @@ import React from "react";
 import Product from "../../Product";
 import "./RightContainer.css";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { Row, Col } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import { listProducts } from "../../../actions/productActions";
 import Paginati from "../../ProductPaginate";
 
@@ -16,7 +15,7 @@ const RightContainer = () => {
   const dispatch = useDispatch();
 
   const productList = useSelector((state) => state.productList);
-  const { loading, error, products, page, pages } = productList;
+  const { products, page, pages } = productList;
 
   useEffect(() => {
     dispatch(listProducts());

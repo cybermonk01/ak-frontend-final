@@ -50,16 +50,23 @@ const HowToOrder = () => {
           </div>
 
           <div class="video">
-            <iframe src="//www.dailymotion.com/embed/video/x6xb6hm?queue-enable=false"></iframe>
+            <iframe
+              src="//www.dailymotion.com/embed/video/x6xb6hm?queue-enable=false"
+              title="Video"
+            ></iframe>
           </div>
           <div className="Vedio__content">
             Our customer service representative Margaret gives you the{" "}
-            <a href="https://www.dailymotion.com/video/x1291e9" target="_blank">
+            <a
+              href="https://www.dailymotion.com/video/x1291e9"
+              target="_blank"
+              rel="noreferrer"
+            >
               guide to safely order prescription drugs
             </a>{" "}
-            from Canada Pharmacy Online.
+            from AK Health Care Online.
           </div>
-<hr></hr>
+          <hr></hr>
           <div class="phone">
             <h2>Order By Phone</h2>
             <hr></hr>
@@ -81,7 +88,7 @@ const HowToOrder = () => {
               by faxing or mailing our customer sign-up forms.{" "}
             </p>
           </div>
-<hr></hr>
+          <hr></hr>
           <div class="fax">
             <h2>Order By Mail or Fax</h2>
             <hr></hr>
@@ -89,21 +96,15 @@ const HowToOrder = () => {
             <p>
               To place an order by mail, fax or email, you can download and
               print our Order form in
-              <a href="https://www.canadapharmacyonline.com/docs/Orderform.doc">
-                Microsoft Word
-              </a>{" "}
-              or in
-              <a href="https://www.canadapharmacyonline.com/docs/Orderform.pdf">
-                PDF format
-              </a>
-              .
+              <a href="">Microsoft Word</a> or in
+              <a href="">PDF format</a>.
             </p>
             <p>
-              Fax Number: <span className="Fax__Text">+(161)62740771</span>
+              Fax Number: <span className="Fax__Text">+(91)999999999</span>
             </p>
             <p>
               Mailing Address:
-              <span className="Fax__Text">canadianpharmacy987@gmail.com</span>
+              <span className="Fax__Text">akhealthcare@gmail.com</span>
             </p>
           </div>
         </div>

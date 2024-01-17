@@ -129,7 +129,7 @@ const ProductScreen = ({ history, match }) => {
                     color: "#07ae8b",
                     fontSize: "18px",
                     lineHeight: "24px",
-                    fontWeight: "400",
+
                     fontWeight: "700",
                   }}
                 >

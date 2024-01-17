@@ -1,7 +1,6 @@
 import React from "react";
 import Carousel from "react-material-ui-carousel";
 import { makeStyles, useTheme } from "@material-ui/core";
-import { BannerData } from "../constants/BannerData";
 import { Route } from "react-router-dom";
 import SearchBox from "./SearchBox";
 import "./Banner.css";

@@ -22,7 +22,6 @@ import HowToOrder from "./components/HowToOrder";
 import container from "./components/categories/Container";
 import { Box } from "@material-ui/core";
 import ShopPage from "./pages/Shop";
-import Footers from "./components/Footers";
 
 const App = () => {
   return (
@@ -64,8 +63,6 @@ const App = () => {
         <Route path="/" component={HomeScreen} exact />
       </main>
       <Footer />
-      {/* <Footers /> */}
-      //{" "}
     </Router>
   );
 };

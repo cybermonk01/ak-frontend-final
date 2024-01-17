@@ -1,14 +1,12 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { Row, Col, Carousel } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import Product from "../components/Product";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
 import Paginate from "../components/Paginate";
-import ProductCarousel from "../components/ProductCarousel";
 import Meta from "../components/Meta";
-import { listLatestProducts, listProducts } from "../actions/productActions";
+import { listLatestProducts } from "../actions/productActions";
 import NavbarCategories from "../components/NavbarCategories";
 import Banner from "../components/Banner";
 import Slide from "../components/Slide";
@@ -73,9 +71,6 @@ const HomeScreen = ({ match }) => {
 
           <Row
             style={{
-              marginLeft: "40px",
-
-              boxSizing: "border-box",
               marginLeft: "20px",
               padding: "0 100px",
 
